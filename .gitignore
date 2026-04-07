@@ -1,0 +1,36 @@
+# =============================================================
+# SENSITIVE — never commit these
+# =============================================================
+
+# Environment file contains API keys, VPN private keys, passwords
+.env
+
+# Let's Encrypt certificates and private keys
+config/traefik/acme.json
+
+# =============================================================
+# RUNTIME DATA — generated at startup, not part of source
+# =============================================================
+
+# Container config directories (auto-populated on first run)
+# Exception: pre-seeded configs for qBittorrent and SABnzbd are tracked
+config/gluetun/
+config/prowlarr/
+config/sonarr/
+config/radarr/
+config/lidarr/
+config/jellyfin/
+
+# Media and download data
+data/
+
+# =============================================================
+# OS / EDITOR
+# =============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/

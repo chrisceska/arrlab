@@ -1,0 +1,10 @@
+# Normalize line endings to LF in the repo for cross-platform consistency
+* text=auto eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.env* text eol=lf
+*.ini text eol=lf
+*.conf text eol=lf
+*.json text eol=lf
+*.gitignore text eol=lf
